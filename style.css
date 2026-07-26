@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    background:#1b1b1b;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    border-bottom:3px solid #d60000;
+}
+
+.logo h1{
+    color:#d60000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#d60000;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.button{
+    display:inline-block;
+    background:#d60000;
+    color:white;
+    padding:15px 30px;
+    margin:10px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#ff2d2d;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.whatsapp:hover{
+    background:#1db954;
+}
+
+section{
+    padding:70px 10%;
+}
+
+section h2{
+    color:#d60000;
+    margin-bottom:25px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    margin:12px 0;
+    font-size:18px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#1b1b1b;
+    border-top:3px solid #d60000;
+}
